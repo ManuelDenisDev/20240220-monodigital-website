@@ -1,5 +1,6 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from "astro:transitions";
+import "aos/dist/aos.css"; // AOS styles
 import Header from '@shared/Header/Header.astro';
 import Footer from '@shared/Footer/Footer.astro';
 
@@ -12,6 +13,7 @@ interface Props {
 }
 
 const { title } = Astro.props;
+
 ---
 
 <!doctype html>
@@ -31,6 +33,13 @@ const { title } = Astro.props;
 		<Header />
         <slot />
 		<Footer />
+	<!-- animate on scroll script -->
+	<script>
+		import { aosInit } from "@js/aos";
+	
+		// runs on initial page load
+		aosInit();
+	  </script>
 	</body>
 </html>
 

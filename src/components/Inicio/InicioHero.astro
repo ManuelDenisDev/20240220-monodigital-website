@@ -4,7 +4,7 @@ import ButtonSecundario from '@shared/Buttons/ButtonSecundario.astro'
 ---
 <section class="relative overflow-hidden">
     <div
-        class="absolute inset-x-0 top-0 h-96 rotate-180 text-onyx-700/20 opacity-60 [mask-image:linear-gradient(to_bottom,transparent,white)]">
+        class="absolute inset-x-0 top-0 h-96 rotate-180 text-onyx-700/40 dark:text-onyx-700/30 opacity-60 [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%" y="100%"
@@ -16,7 +16,7 @@ import ButtonSecundario from '@shared/Buttons/ButtonSecundario.astro'
         </svg>
     </div>
     <div class="px-8 pt-40 pb-36 mx-auto md:px-12 lg:px-36 lg:pt-64 max-w-7xl relative">
-        <div class="text-center mx-auto">
+        <div class="text-center mx-auto" data-aos="fade-down" data-aos-duration="3000" class="aos-init aos-animate">
             <h1 class="text-4xl lg:text-5xl">
                 Mono en acción,
                 <span class="md:block text-onyx-400 dark:text-onyx-600"> digital en esencia:</span>

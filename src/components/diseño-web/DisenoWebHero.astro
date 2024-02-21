@@ -1,0 +1,34 @@
+---
+import BgGrid from '../shared/Bg/BgGrid.astro'
+---
+<section class="monoWrapper">
+    <div class="monoFondo__container">
+        <BgGrid />
+    </div>
+    <article class="monoArticle" data-aos="fade-down" data-aos-duration="3000">
+        <header>
+            <div class="monoHeader">
+                <span class="monoHeader__span">💻</span>
+                <p class="monoHeader__p">Diseño Web<span class="monoHeader__p-Span"> Landing Page / Website / e-Commerce</span> </p> 
+            </div>
+            <h1 class="monoHeader__h1">Si no tienes web, no existes.<span class="monoHeader__h1-Span">Si no está bien hecha, no venderás.</span></h1>   
+        </header>
+        <main class="monoMain">
+            <p>Será un proceso muy fácil. Te vamos a guiar paso a paso hasta que lances tu nueva web por todo lo alto 🚀</p>
+            <p>Será moderna, intuitiva y rápida 💨</p>
+            <p>Estará preparada para conseguirte más clientes y te darán ganas de enseñársela a todo el mundo 🥰</p>
+        </main>
+    </article>
+</section>
+<style>
+    .monoWrapper {@apply relative overflow-hidden;}
+    .monoFondo__container {@apply absolute inset-x-0 top-0 h-96 rotate-180 text-onyx-700/40 dark:text-onyx-700/30 opacity-60 [mask-image:linear-gradient(to_bottom,transparent,white)];}
+    .monoArticle {@apply px-8 pt-32 pb-24 mx-auto md:px-12 lg:px-36 lg:pt-64 max-w-7xl relative;}
+    .monoHeader {@apply flex flex-wrap gap-2 items-center;}
+    .monoHeader__span {@apply text-3xl;}
+    .monoHeader__p {@apply text-sm font-medium leading-6 text-white;}
+    .monoHeader__p-Span {@apply ml-2 text-xs text-onyx-300;}
+    .monoHeader__h1 {@apply text-4xl lg:text-5xl text-white mt-12;}
+    .monoHeader__h1-Span {@apply md:block text-onyx-400;}
+    .monoMain {@apply text-onyx-300 mt-4 dark:text-onyx-500;}
+</style>

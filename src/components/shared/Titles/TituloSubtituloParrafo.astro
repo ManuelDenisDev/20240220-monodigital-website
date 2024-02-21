@@ -8,7 +8,7 @@ interface Props {
 const { titulo, subtitulo, parrafo } = Astro.props;
 ---
 
-<div class="monoContainer">
+<div class="monoContainer" data-aos="fade-up" data-aos-duration="2000" class="aos-init aos-animate">
     <h2 class="monoH2">{titulo} <span
         class="monoSpan">{subtitulo}</span></h2>
     <p class="monoP">{parrafo}</p>

@@ -15,6 +15,7 @@
       "@shared/*": ["./src/components/shared/*"],
       "@config/*": ["./src/config/*"],
       "@content/*": ["./src/content/*"],
+      "@js/*": ["src/js/*"],
       "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
       "@styles/*": ["./src/styles/*"],

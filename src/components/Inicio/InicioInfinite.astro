@@ -1,0 +1,18 @@
+---
+import Separador from '@shared/Separador.astro'
+import InfiniteScroll from '@shared/InfiniteScroll.astro'
+---
+<article>
+    <header class="monoHeader">
+        <h4 class="monoH4">Herramientas Simiescas</h4>
+    </header>
+</article>
+<Separador estilo="h-16" />
+<InfiniteScroll />
+<Separador estilo="h-12" />
+
+<style>
+    .monoArticle {}
+    .monoHeader {@apply text-center mx-auto;}
+    .monoH4 {@apply text-onyx-300 dark:text-onyx-500 mt-4;}
+</style>

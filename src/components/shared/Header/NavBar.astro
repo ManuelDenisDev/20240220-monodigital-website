@@ -1,0 +1,23 @@
+---
+import NavBarLink from '@shared/Header/NavBarLink.astro'
+import ButtonAcentuadoXs from '@shared/Buttons/ButtonAcentuadoXs.astro'
+import menu from '@config/menu.json'
+
+const { principal } = menu
+---
+
+<nav class="monoNavBar hidden">
+    <ul class="monoNavBar__ul">
+        {
+            principal.map((link) => (
+                <NavBarLink url={link.url} title={link.title} label={link.label} />     
+            ))  
+        }
+        <ButtonAcentuadoXs url="/contacto" texto="Contacto"/>
+    </ul>   
+</nav>
+
+<style>
+    .monoNavBar {@apply flex-col md:flex-row flex-grow justify-center md:flex md:items-end md:py-0 py-12 transition-all duration-500;}
+    .monoNavBar__ul {@apply items-center gap-3 justify-center list-none md:inline-flex md:ml-auto md:space-y-0 md:text-left space-y-2 text-center;}
+</style>

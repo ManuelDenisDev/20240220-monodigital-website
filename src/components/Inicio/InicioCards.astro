@@ -1,0 +1,21 @@
+---
+import TitularParrafo from '@shared/Titles/TitularParrafo.astro'
+import CardsWrapper from '@shared/Cards/CardsWrapper.astro'
+import CardsTilts from '@shared/Cards/CardsTilts.astro'
+import menu from '@config/menu.json'
+
+
+const { cards } = menu
+
+---
+<TitularParrafo titulo="Expecialidades Simiescas" parrafo="Desarrollamos estrategias simiescas, ágiles y poderosas, escalando la jungla digital con astucia y destreza única."/>
+
+<CardsWrapper estilos="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 mt-12">
+    {cards.map((card) => (
+        <li>
+            <CardsTilts url={card.url} alt={card.alt} logo={card.logo} emoji={card.emoji} titulo={card.titulo} subtitulo={card.subtitulo} descripcion={card.descripcion} />
+        </li>
+    ))}
+</CardsWrapper>
+
+<style></style>

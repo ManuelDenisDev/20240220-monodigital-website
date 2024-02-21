@@ -1,0 +1,26 @@
+{
+    "site": {
+      "title": "MONO digital",
+      "base_url": "https://monodigital.dev",
+      "base_path": "/",
+      "favicon": "/favicon.svg",
+      "logoLight": "/logoLight.svg",
+      "logoDark": "/logoDark.svg",
+      "lang": "es",
+      "description": "Sitio web diseñado y desarrollado por MONO digital para su pagina web, realizado con Astro, Tailwind CSS, y TypeScript.",
+      "pageSize": 6
+    },
+    "features": {
+      "youtube": false,
+      "dark_mode": true
+    },
+    "metadata": {
+      "meta_author": "Manuel Denis Developer @mandendev",
+      "meta_description": "Ya sea para mejorar tu posicionamiento SEO, aumentar tu presencia en las redes sociales o lanzar una campaña publicitaria, Mono Digital"
+    },
+    "author": {
+      "name": "Manuel Denis Rodriguez @mandendev",
+      "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
+      "bio": "Sitio web diseñado y desarrollado por Manuel Denis para el sitio web de la agencia MONO digital, realizado con Astro, Tailwind CSS, y TypeScript."
+    }
+  }

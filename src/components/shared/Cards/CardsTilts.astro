@@ -1,0 +1,61 @@
+---
+interface Props {
+    url: string;
+    alt: string;
+    logo: string;
+    emoji: string;
+    titulo: string;
+    subtitulo: string;
+    descripcion: string;
+}
+
+const { url, alt, logo, emoji, titulo, subtitulo, descripcion } = Astro.props;
+---
+    <figure class="monoCard__figure card shadow-massive">
+        <a href={url} class="monoCard__a group">
+            <img alt={alt} src={logo} decoding="async" data-mining="future" class="monoCard__img drop-shadow-3xl" loading="lazy">
+            <blockquote class="monoCard__blockquote"> 
+                <span class="monoCard__span">{emoji}</span>
+                <p class="monoCard__titulo">{titulo}<span class="monoCard__subtitulos">{' '}{subtitulo}</span></p>
+                <p class="monoCard__descripcion">{descripcion}</p>
+            </blockquote>
+        </a>
+    </figure>
+<style>
+    .monoCard__figure {
+        @apply  relative h-full p-8 rounded-3xl bg-gradient-to-tr from-onyx-900 dark:from-onyx-200 to-onyx-700 dark:to-onyx-100 border border-onyx-800 dark:border-onyx-300;
+    }
+    .monoCard__a {
+        @apply  h-full flex flex-col justify-between;
+    }
+    .monoCard__img {
+        @apply  object-contain shrink-0 h-16 w-16;
+    }
+    .monoCard__blockquote {
+        @apply  relative space-y-3 mt-24;
+    }
+    .monoCard__span {
+        @apply  text-2xl text-onyx-400 dark:text-onyx-500;
+    }
+    .monoCard__titulo {
+        @apply  text-sm font-medium leading-6 text-white dark:text-onyx-900;
+    }
+    .monoCard__subtitulos {
+        @apply  text-onyx-300 text-xs dark:text-onyx-500;
+    }
+    .monoCard__descripcion {
+        @apply  text-base text-onyx-300 dark:text-onyx-500;
+    }
+</style>
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".card"), {
+		max: 35,
+		speed: 2500,
+		transistion: true
+	});
+
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".card"));
+</script>

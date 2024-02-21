@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets';
+import config from '@config/config.json';
+
+interface Props {
+	estilo: string;
+}
+
+const { estilo } = Astro.props;
+---
+
+<div class="block dark:hidden">
+    <a href="/" class="logo flex items-center" aria-current="page">
+      <figure>
+        <Image
+          src={config.site.logoDark}
+          alt={config.site.title}
+          class={estilo}
+          width={500}
+          height={200}
+          decoding="async"
+          loading="lazy"
+        />
+      </figure>
+    </a>
+  </div>
+  <div class="hidden dark:block">
+    <a href="/" class="logo flex items-center" aria-current="page">
+      <figure>
+        <Image
+          src={config.site.logoLight}
+          alt={config.site.title}
+          class={estilo}
+          width={500}
+          height={200}
+          decoding="async"
+          loading="lazy"
+        />
+      </figure>
+    </a>
+  </div>

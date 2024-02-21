@@ -1,0 +1,21 @@
+---
+interface Props {
+    titulo: string;
+    subtitulo: string;
+    parrafo: string;
+}
+
+const { titulo, subtitulo, parrafo } = Astro.props;
+---
+
+<div class="monoContainer">
+    <h2 class="monoH2">{titulo} <span
+        class="monoSpan">{subtitulo}</span></h2>
+    <p class="monoP">{parrafo}</p>
+</div>
+<style>
+    .monoContainer {@apply text-center mx-auto;}
+    .monoH2 {@apply text-4xl;}
+    .monoSpan {@apply md:block text-onyx-400;}
+    .monoP {@apply text-onyx-300 dark:text-onyx-500 mt-4;}
+</style>

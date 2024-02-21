@@ -1,0 +1,85 @@
+{
+    "principal": [
+      {
+        "title": "Diseño Web",
+        "label": "diseño-web",
+        "url": "/diseño-web"
+      },
+      {
+        "title": "Branding",
+        "label": "branding",
+        "url": "/branding"
+      },
+      {
+        "title": "SEO",
+        "label": "seo",
+        "url": "/seo"
+      },
+      {
+        "title": "Redes Sociales",
+        "label": "redes-sociales",
+        "url": "/redes-sociales"
+      },
+      {
+        "title": "Trabajos",
+        "label": "trabajos",
+        "url": "/trabajos"
+      }
+    ],
+    "cards": [
+      {
+        "url": "/redes-sociales",
+        "alt": "Redes Sociales",
+        "logo": "/logos/canva.svg",
+        "emoji": "📱",
+        "titulo": "Redes Sociales",
+        "subtitulo": "/ Estrategia / Contenido",
+        "descripcion": "Creamos una estrategia de redes sociales efectiva y generamos contenido de calidad para aumentar la visibilidad de tu marca."
+      },
+      {
+        "url": "/diseño-web",
+        "alt": "Diseño Web",
+        "logo": "/logos/html-5.svg",
+        "emoji": "🖥️",
+        "titulo": "Diseño Web",
+        "subtitulo": "/ Desarrollo / Mantenimiento",
+        "descripcion": "Diseñamos y desarrollamos tu página web para que sea atractiva, funcional y fácil de usar. Además, nos encargamos de su mantenimiento."
+      },
+      {
+        "url": "/branding",
+        "alt": "Branding",
+        "logo": "/logos/adobe.svg",
+        "emoji": "🎨",
+        "titulo": "Branding",
+        "subtitulo": "/ Identidad / Estrategia",
+        "descripcion": "Creamos una identidad de marca única y una estrategia de branding para que tu empresa se destaque en el mercado."
+      },
+      {
+        "url": "/seo",
+        "alt": "SEO",
+        "logo": "/logos/google.svg",
+        "emoji": "🔍",
+        "titulo": "SEO",
+        "subtitulo": "/ Posicionamiento / Análisis",
+        "descripcion": "Optimizamos tu sitio web para que aparezca en los primeros resultados de búsqueda y realizamos un análisis constante para mejorar su rendimiento."
+      },
+      {
+        "url": "/publicidad",
+        "alt": "Publicidad",
+        "logo": "/logos/meta.svg",
+        "emoji": "📈",
+        "titulo": "Publicidad",
+        "subtitulo": "/ Campañas / Análisis",
+        "descripcion": "Creamos campañas publicitarias efectivas y realizamos un análisis constante para mejorar su rendimiento."
+      },
+      {
+        "url": "/logotipo",
+        "alt": "Logotipo",
+        "logo": "/logos/illustrator.svg",
+        "emoji": "🖌️",
+        "titulo": "Logotipo",
+        "subtitulo": "/ Diseño / Identidad",
+        "descripcion": "Diseñamos un logotipo que represente la esencia de tu marca y que sea fácilmente reconocible."
+      }
+    ]
+  }

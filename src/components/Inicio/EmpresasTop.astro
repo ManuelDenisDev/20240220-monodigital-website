@@ -1,0 +1,21 @@
+<article class="monoArticle">
+    <header class="monoHeader">
+        <h4 class="monoH4">Algunas de las empresas que ya trabajan con nostros</h4>
+    </header>
+    <main class="monoMain">
+        <ul class="monoUl">
+            <img src="/logos/typescript.svg" class="monoImg" alt="logo" />
+            <img src="/logos/tailwindcss.svg" class="monoImg " alt="logo" />
+            <img src="/logos/astro.svg" class="monoImg " alt="logo" />
+            <img src="/logos/react.svg" class="monoImg hidden sm:block " alt="logo" />
+        </ul>
+    </main>
+</article>
+<style>
+    .monoArticle {@apply grid grid-cols-1 items-center lg:grid-cols-4  md:grid-cols-2 lg:gap-24;}
+    .monoHeader {@apply col-span-full lg:col-span-1 lg:max-w-none lg:mr-auto mx-auto;}
+    .monoH4 {@apply text-onyx-300 text-xs;}
+    .monoMain {@apply mt-12 lg:mt-0 md:col-span-3;}
+    .monoUl {@apply flex flex-wrap justify-between;}
+    .monoImg {@apply h-8;}
+</style>

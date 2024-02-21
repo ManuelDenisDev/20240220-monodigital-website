@@ -1,0 +1,12 @@
+---
+import HamburgerIcon from '@icons/HamburgerIcon.astro'
+import CloseIcon from '@icons/CloseIcon.astro'
+---
+
+<input id="nav-toggle" type="checkbox" class="hidden" />
+<label id="show-button" for="nav-toggle" class="order-2 flex cursor-pointer items-center transition-all duration-300 text-zinc-400 dark:text-onyx-600 md:hidden">
+    <HamburgerIcon class="size-6"/>
+</label>
+<label id="hide-button" for="nav-toggle" class="order-2 hidden cursor-pointer items-center transition-all duration-300 text-zinc-400 dark:text-onyx-600">
+    <CloseIcon class="size-6" />
+</label>

@@ -1,0 +1,62 @@
+---
+import Container from '@shared/Containers/Container.astro'
+import Logo from '@shared/Logo.astro'
+import Linkedin from '@icons/Linkedin.astro'
+import GitHub from '@icons/GitHub.astro'
+import X from '@icons/X.astro'
+import Instagram from '@icons/Instagram.astro'
+---
+<Container>
+    <footer class="monoGrid__footer">
+        <article class="monoArticle">
+            <figure class="monoFigure">
+                <Logo estilo="w-52 lg:w-40" />
+            </figure>
+            <ul class="monoSocial__wrapper">
+                <li><a class="monoSocial__container" href="#"><Linkedin estilo="size-5" /></a></li>
+                <li><a class="monoSocial__container" href="#"><GitHub estilo="size-5" /></a></li>
+                <li><a class="monoSocial__container" href="#"><X estilo="size-5" /></a></li>
+                <li><a class="monoSocial__container" href="#"><Instagram estilo="size-5" /></a></li>
+            </ul>
+        </article>
+        <section class="monoSection">
+            <article>
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a>+34 666 66 66 66</a></li>
+                    <li><a>hola@monodigital.es</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a>Diseño web</a></li>
+                    <li><a>Branding</a></li>
+                    <li><a>SEO</a></li>
+                    <li><a>Redes Sociales</a></li>
+                </ul>
+            </article>
+            <article>
+                <h3>Legal</h3>
+                <ul>
+                    <li><a>Aviso Legal</a></li>
+                    <li><a>Política de Privacidad</a></li>
+                    <li><a>Cookies</a></li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+    <span class="monoSpan">
+        © Copyright <span>2024</span>. Todos los derechos reservados.
+    </span>
+</Container>
+
+<style>
+    .monoGrid__footer {@apply grid grid-cols-1 items-start  md:grid-cols-5 lg:gap-24 pb-12;}
+    .monoArticle {@apply col-span-full md:col-span-2 mx-auto flex flex-col gap-4;}
+    .monoFigure {@apply w-full h-auto;}
+    .monoSocial__wrapper {@apply grid grid-cols-4 mx-auto gap-4;}
+    .monoSocial__container {@apply fill-onyx-400 dark:fill-onyx-500 hover:fill-onyx-100 dark:hover:fill-onyx-50;}
+    .monoSection {@apply mt-12 md:mt-0 md:col-span-3 flex flex-wrap justify-around [&>article>h3]:text-sm [&>article>h3]:py-2 [&>article>ul]:text-sm [&>article>ul]:text-onyx-300 [&>article>ul]:dark:text-onyx-500;}
+    .monoSpan {@apply block text-xs text-onyx-300 dark:text-onyx-500 md:mt-0 border-t border-onyx-800 dark:border-onyx-300 pt-8 max-w-7xl md:mx-auto;}
+</style>

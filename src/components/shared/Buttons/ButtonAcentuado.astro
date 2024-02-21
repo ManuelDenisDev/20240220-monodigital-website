@@ -1,0 +1,15 @@
+---
+interface Props {
+    url: string
+    texto: string
+}
+
+const { url, texto } = Astro.props
+---
+
+<a class="monoButton_acentuado shadow-massive" href={url}>{texto}</a>
+<style>
+    .monoButton_acentuado {
+        @apply inline-flex items-center justify-center w-full sm:w-auto px-6 py-3 text-sm text-center duration-500 ease-in-out transform text-onyx-50 rounded-xl bg-gradient-to-tr  from-indigo-500 via-indigo-400 to-indigo-300 hover:to-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-onyx-900 focus:ring-offset-2 focus:ring-indigo-300 hover:shadow-none;
+    }
+</style>

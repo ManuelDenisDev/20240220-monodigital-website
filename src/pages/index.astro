@@ -1,0 +1,32 @@
+---
+import Base from '@layouts/Base.astro'
+import InicioHero from '@components/Inicio/InicioHero.astro'
+import SectionsLine from '@shared/Containers/SectionsLine.astro'
+import EmpresasTop from '@components/Inicio/EmpresasTop.astro'
+import Sections from '@shared/Containers/Sections.astro'
+import InicioCards from '@components/Inicio/InicioCards.astro'
+import Impulsamos from '@components/Inicio/Impulsamos.astro'
+import InicioInfinite from '@components/Inicio/InicioInfinite.astro'
+import Opiniones from '@shared/Opiniones.astro'
+---
+
+<Base title="MONO digital 🐒 Agencia de Marketing Digital, Diseño Gráfico y Desarrollo Web en el Sur de España.">
+	<main>
+		<InicioHero />
+		<SectionsLine>
+			<EmpresasTop />
+		</SectionsLine>
+		<Sections>
+			<InicioCards />
+		</Sections>
+		<Sections>
+			<Impulsamos />
+		</Sections>
+		<SectionsLine>
+			<InicioInfinite />
+		</SectionsLine>
+		<Sections>
+			<Opiniones />
+		</Sections>
+	</main>
+</Base>

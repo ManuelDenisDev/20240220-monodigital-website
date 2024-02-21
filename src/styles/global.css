@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  body {
+    @apply antialiased bg-onyx-50 text-white dark:bg-onyx-100 dark:text-onyx-50;
+  }
+  
+}
+
+body {
+  font-family: 'Figtree Variable', sans-serif;
+}
+h1,
+h2 {
+  font-family: 'Source Code Pro Variable', monospace;
+}
+
+.shadow-massive {
+  --tw-shadow: 0px 64px 64px rgba(0, 0, 0, 0.15), 0px 32px 32px rgba(0, 0, 0, 0.15), 0px 16px 16px rgba(0, 0, 0, 0.15), 0px 8px 8px rgba(0, 0, 0, 0.15),
+    0px 4px 4px rgba(0, 0, 0, 0.15);
+  --tw-shadow-colored: 0px 64px 64px var(--tw-shadow-color), 0px 32px 32px var(--tw-shadow-color), 0px 16px 16px var(--tw-shadow-color),
+    0px 8px 8px var(--tw-shadow-color), 0px 4px 4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+
+input#nav-toggle:checked ~ label#show-button {
+  @apply hidden;
+}
+
+input#nav-toggle:checked ~ label#hide-button {
+  @apply flex md:hidden;
+}
+
+input#nav-toggle:checked ~ #nav-menu {
+  @apply block md:flex;
+}
+
+.sun {
+  @apply stroke-yellow-500 fill-yellow-200 transition-all;
+}
+.moon {
+  @apply stroke-transparent fill-transparent transition-all;
+}
+.dark .sun {
+  @apply stroke-transparent fill-transparent;
+}
+.dark .moon {
+  @apply stroke-indigo-400 fill-indigo-400;
+}
+#themeToggle:hover .sun {
+  @apply stroke-yellow-800 fill-transparent;
+}
+#themeToggle:hover .moon {
+  @apply stroke-transparent fill-transparent;
+}
+.dark #themeToggle:hover .sun {
+  @apply stroke-transparent fill-transparent;
+}
+.dark #themeToggle:hover .moon {
+  @apply stroke-indigo-900 fill-transparent;
+}

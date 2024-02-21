@@ -1,0 +1,36 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '@shared/Header/Header.astro';
+import Footer from '@shared/Footer/Footer.astro';
+
+import config from '@config/config.json';
+
+import "@styles/global.css";
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang={config.site.lang}>
+	<head>
+		<!-- favicon -->
+		<link rel="shortcut icon" href={config.site.favicon} />
+		<meta charset="UTF-8" />
+		<meta name="author" content={config.metadata.meta_author} />
+		<meta name="description" content={config.metadata.meta_description} />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<ViewTransitions />
+	</head>
+	<body>
+		<Header />
+        <slot />
+		<Footer />
+	</body>
+</html>
+

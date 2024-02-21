@@ -1,0 +1,12 @@
+---
+import InfiniteScrollMin from '@shared/InfiniteScrollMin.astro'
+---
+
+<div class="monoContainer">
+	<InfiniteScrollMin />
+	<InfiniteScrollMin />
+</div>
+
+<style>
+	.monoContainer {@apply w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)];}
+</style>

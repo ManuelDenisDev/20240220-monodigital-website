@@ -1,0 +1,58 @@
+{
+    "redes-sociales": {
+        "url": "/redes-sociales",
+        "alt": "Redes Sociales",
+        "logo": "/logos/meta.svg",
+        "emoji": "📱",
+        "titulo": "Redes Sociales",
+        "subtitulo": "/ Estrategia / Contenido",
+        "descripcion": "Creamos una estrategia de redes sociales efectiva y generamos contenido de calidad para aumentar la visibilidad de tu marca."
+    },
+    "diseno-web": {
+        "url": "/diseno-web",
+        "alt": "Diseño Web",
+        "logo": "/logos/meta.svg",
+        "emoji": "🎨",
+        "titulo": "Diseño Web",
+        "subtitulo": "/ Desarrollo / Mantenimiento",
+        "descripcion": "Diseñamos y desarrollamos sitios web atractivos y funcionales, con un mantenimiento constante para que siempre estén actualizados."
+    },
+    "branding": {
+        "url": "/branding",
+        "alt": "Branding",
+        "logo": "/logos/meta.svg",
+        "emoji": "🔥",
+        "titulo": "Branding",
+        "subtitulo": "/ Identidad / Estrategia",
+        "descripcion": "Creamos una identidad visual única y una estrategia de marca que te diferencie de la competencia."
+    },
+    "seo": {
+        "url": "/seo",
+        "alt": "SEO",
+        "logo": "/logos/meta.svg",
+        "emoji": "🔍",
+        "titulo": "SEO",
+        "subtitulo": "/ Posicionamiento / Análisis",
+        "descripcion": "Optimizamos tu sitio web para que aparezca en los primeros resultados de búsqueda y realizamos un análisis constante para mejorar su rendimiento."
+    },
+    "publicidad": {
+        "url": "/publicidad",
+        "alt": "Publicidad",
+        "logo": "/logos/meta.svg",
+        "emoji": "📈",
+        "titulo": "Publicidad",
+        "subtitulo": "/ Campañas / Análisis",
+        "descripcion": "Creamos campañas publicitarias efectivas y realizamos un análisis constante para mejorar su rendimiento."
+    },
+    "logotipo": {
+        "url": "/logotipo",
+        "alt": "Logotipo",
+        "logo": "/logos/meta.svg",
+        "emoji": "🖌️",
+        "titulo": "Logotipo",
+        "subtitulo": "/ Diseño / Identidad",
+        "descripcion": "Diseñamos un logotipo que represente la esencia de tu marca y que sea fácilmente reconocible."
+    }
+}
+    
+

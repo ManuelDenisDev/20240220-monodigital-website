@@ -1,0 +1,85 @@
+{
+    "tiendaOnline": {
+        "emoji": "🎨🎉",
+        "titulo": "MONO Creativo",
+        "tags": [ "Diseño Web", "Landing Page", "E-Commerce"],
+        "tagline": ["Si no tienes web, no existes.","Si no está bien hecha, no venderás."],
+        "descripcion": ["Será un proceso muy fácil. Te vamos a guiar paso a paso hasta que lances tu nueva web por todo lo alto 🚀","Será moderna, intuitiva y rápida 💨", "Estará preparada para conseguirte más clientes y te darán ganas de enseñársela a todo el mundo 🥰" ],
+        "imagen": "img/e-commerce.jpg",
+        "cardsTiendaOnline": {
+            "titulo": "MONO Creativo 🎨🎉 Tiendas Online Estandar",
+            "subtitulo": "Características, precios y opciones",
+            "descripcion": "Precios sin IVA.",
+            "opciones": [{
+                "opcion1": "Paquete Destacado", 
+                "titulo": "MONO Spotlight 🔦💼",
+                "precio": "550€",
+                "descripcion": "1 sección / URL",
+                "DescriptionList": ["Textos: Máximo 400 palabras, proporcionado por el cliente", "Fotos: Máximo 5, proporcionadas por el cliente"],
+                "button": "Contratar",
+                "dataAos": "fade-right",
+                "items": [
+                    {"texto": "Diseño web personalizado", "checked": true},
+                    {"texto": "Panel de control intuitivo", "checked": true},
+                    {"texto": "Certificado SSL", "checked": true},
+                    {"texto": "Web en propiedad", "checked": true},
+                    {"texto": "Diseño responsive multipantalla", "checked": true},
+                    {"texto": "Mapa interactivo de Google Maps", "checked": true},
+                    {"texto": "Iconos con enlaces a redes sociales", "checked": true},
+                    {"texto": "Hosting y dominio .es gratis: 3 meses", "checked": true},
+                    {"texto": "1 cuenta y 5 alias de email profesional", "checked": true},
+                    {"texto": "Paginas Legales", "checked": false},
+                    {"texto": "Pack de inicio SEO", "checked": false},
+                    {"texto": "Chat", "checked": false},
+                    {"texto": "Blog con la primera entrada", "checked": false}
+                ]},
+                {
+                "opcion2": "Paquete Pro",
+                "titulo": "MONO Professional 💼🚀",
+                "precio": "800€",
+                "descripcion": "1 sección / URL",
+                "DescriptionList": ["Textos: Máximo 400 palabras, proporcionado por el cliente", "Fotos: Máximo 5, proporcionadas por el cliente"],
+                "button": "Contratar",
+                "dataAos": "fade-up",
+                "items": [
+                    { "texto": "Diseño web personalizado", "checked": true},
+                    { "texto": "Panel de control intuitivo", "checked": true},
+                    { "texto": "Certificado SSL", "checked": true},
+                    { "texto": "Web en propiedad", "checked": true},
+                    { "texto": "Diseño responsive multipantalla", "checked": true},
+                    { "texto": "Mapa interactivo de Google Maps", "checked": true},
+                    { "texto": "Iconos con enlaces a redes sociales", "checked": true},
+                    { "texto": "Hosting y dominio .es gratis: 3 meses", "checked": true},
+                    { "texto": "1 cuenta y 5 alias de email profesional", "checked": true},
+                    { "texto": "Paginas Legales", "checked": true},
+                    { "texto": "Pack de inicio SEO", "checked": false},
+                    { "texto": "Chat", "checked": false},
+                    { "texto": "Blog con la primera entrada", "checked": false }
+                ]},
+                {
+                "opcion3": "Paquete Total",
+                "titulo": "MONO Complete 🌈🚀",
+                "precio": "1000€",
+                "descripcion": "1 sección / URL",
+                "DescriptionList": ["Textos: Máximo 400 palabras, proporcionado por el cliente", "Fotos: Máximo 5, proporcionadas por el cliente"],
+                "button": "Contratar",
+                "dataAos": "fade-left",
+                "items": [
+                    {"texto": "Diseño web personalizado", "checked": true},
+                    {"texto": "Panel de control intuitivo", "checked": true},
+                    {"texto": "Certificado SSL", "checked": true},
+                    {"texto": "Web en propiedad", "checked": true},
+                    {"texto": "Diseño responsive multipantalla", "checked": true},
+                    {"texto": "Mapa interactivo de Google Maps", "checked": true},
+                    {"texto": "Iconos con enlaces a redes sociales", "checked": true},
+                    {"texto": "Hosting y dominio .es gratis: 3 meses", "checked": true},
+                    {"texto": "1 cuenta y 5 alias de email profesional", "checked": true},
+                    {"texto": "Paginas Legales", "checked": true},
+                    {"texto": "Pack de inicio SEO", "checked": true},
+                    {"texto": "Chat", "checked": true},
+                    {"texto": "Blog con la primera entrada", "checked": true }
+                ]}
+            ]
+        }
+    }
+}

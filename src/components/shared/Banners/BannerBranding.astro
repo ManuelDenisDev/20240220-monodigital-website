@@ -1,0 +1,13 @@
+---
+import TituloSubtitulo from '@shared/Titles/TituloSubtitulo.astro'
+import ButtonSecundario from '@shared/Buttons/ButtonSecundario.astro'
+import CardsWrapper from '@shared/Cards/CardsWrapper.astro'
+import CardsTiltsEmoji from '@shared/Cards/CardsTiltsEmoji.astro'
+---
+<article class="flex flex-col justify-start items-start gap-12" data-aos="fade-up" data-aos-duration="2000">
+    <TituloSubtitulo titulo="Diseño de logotipos" subtitulo="para empresas, marcas y productos." alinear='left'/>
+    <ButtonSecundario texto="Branding" url="/branding" />
+</article>
+<CardsWrapper estilos='mt-24 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 rounded-2xl'>
+    <CardsTiltsEmoji url="" titulo="" emojiTitulo="" items={[]} precio="" tagline="" />
+</CardsWrapper>

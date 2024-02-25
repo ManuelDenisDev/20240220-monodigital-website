@@ -1,5 +1,9 @@
 ---
 import BgGrid from '../shared/Bg/BgGrid.astro'
+import webDesignInfo from '@config/diseñoWeb-page.json'
+
+const { diseñoWeb } = webDesignInfo
+
 ---
 <section class="monoWrapper">
     <div class="monoFondo__container">
@@ -8,15 +12,15 @@ import BgGrid from '../shared/Bg/BgGrid.astro'
     <article class="monoArticle" data-aos="fade-down" data-aos-duration="3000">
         <header>
             <div class="monoHeader">
-                <span class="monoHeader__span">💻</span>
-                <p class="monoHeader__p">Diseño Web<span class="monoHeader__p-Span"> Landing Page / Website / e-Commerce</span> </p> 
+                <span class="monoHeader__span">{diseñoWeb.emoji}</span>
+                <p class="monoHeader__p">{diseñoWeb.titulo}<span class="monoHeader__p-Span">{diseñoWeb.tags}</span> </p> 
             </div>
-            <h1 class="monoHeader__h1">Si no tienes web, no existes.<span class="monoHeader__h1-Span">Si no está bien hecha, no venderás.</span></h1>   
+            <h1 class="monoHeader__h1">{diseñoWeb.tagline[0]}<span class="monoHeader__h1-Span">{diseñoWeb.tagline[1]}</span></h1>   
         </header>
         <main class="monoMain">
-            <p>Será un proceso muy fácil. Te vamos a guiar paso a paso hasta que lances tu nueva web por todo lo alto 🚀</p>
-            <p>Será moderna, intuitiva y rápida 💨</p>
-            <p>Estará preparada para conseguirte más clientes y te darán ganas de enseñársela a todo el mundo 🥰</p>
+            <p>{diseñoWeb.descripcion[0]}</p>
+            <p>{diseñoWeb.descripcion[1]}</p>
+            <p>{diseñoWeb.descripcion[2]}</p>
         </main>
     </article>
 </section>

@@ -1,0 +1,65 @@
+---
+import TituloSubtituloParrafo from "@components/shared/Titles/TituloSubtituloParrafo.astro";
+import CardsListItem from "@components/shared/Cards/CardsListItem.astro";
+import diseñoWeb from "@config/diseñoWeb-page.json";
+import diseñiWebLandingPages from "@config/diseñoWeb-landingPages-page.json";
+
+
+const { cardsDiseñoWeb } = diseñoWeb;
+const { landingPage } = diseñiWebLandingPages;
+const { opciones } = landingPage.cardsLandingPage;
+
+
+---
+<TituloSubtituloParrafo titulo={cardsDiseñoWeb.emoji+' '+cardsDiseñoWeb.titulo} subtitulo={cardsDiseñoWeb.subtitulo} parrafo={cardsDiseñoWeb.descripcion} />
+
+<div class="monoWrapper">
+
+    {
+        opciones.map((opcion) => {
+            return (
+                <article class="monoArticle shadow-big monoBlack" data-aos={opcion.dataAos} data-aos-duration="2000">
+                    <div>
+                        <header class="monoHeader"><h3>{opcion.titulo}</h3></header>
+                        <section class="monoSection">
+                            <div class="monoContainer">
+                                <span class="monoPrice">{opcion.precio}</span>
+                                <p class="monoDescription">{opcion.descripcion}</p>
+                                <ol class="monoOl">
+                                    <li>{opcion.DescriptionList[0]}</li>
+                                    <li>{opcion.DescriptionList[1]}</li>
+                                </ol>
+                            </div>
+                        </section>
+                        <div>
+                            <a href="#"><span class="monoButton shadow-massive">{opcion.button}</span></a>
+                        </div>
+                        <ul class="monoContainer--li">
+                            {
+                                opcion.items.map((item) => {
+                                    return (
+                                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} />
+                                    )
+                                })
+                            }
+                        </ul>
+                    </div>
+                </article>
+            )
+        })
+    }
+
+</div>
+
+    <style>
+        .monoWrapper {@apply mt-24 grid md:grid-cols-2 lg:grid-cols-3 gap-2 rounded-2xl; }
+        .monoArticle {@apply flex flex-col p-8 rounded-3xl bg-gradient-to-tr from-onyx-900 via-onyx-800/50 to-onyx-700/50 first-of-type:from-indigo-500 first-of-type:via-indigo-400 first-of-type:to-indigo-300 [&>div>div]:mt-8 first-of-type:text-onyx-50; }
+        .monoHeader {@apply flex items-baseline [&>h3]:text-2xl ; }
+        .monoSection {@apply py-5 border-b border-white/20; }
+        .monoContainer {@apply flex flex-col items-baseline; }
+        .monoPrice {@apply mt-6 text-2xl; }
+        .monoDescription {@apply mt-3 text-base lg:text-xl; }
+        .monoOl {@apply list-disc list-inside text-xs;}
+        .monoButton {@apply inline-flex items-center justify-center w-full hover:shadow-none px-6 py-3 text-sm text-center text-onyx-300 duration-500 ease-in-out transform border border-onyx-800 bg-onyx-900 rounded-xl  focus:outline-none hover:bg-onyx-900 focus:ring-2 hover:text-onyx-300 focus:ring-offset-4 focus:ring-onyx-900; }
+        .monoContainer--li {@apply order-last mt-10 flex flex-col gap-y-3 text-sm [&>li]:inline-flex [&>li]:items-center [&>li]:gap-2; }
+    </style>

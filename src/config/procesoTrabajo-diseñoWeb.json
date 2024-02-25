@@ -1,0 +1,29 @@
+{
+    "titulo": "Proceso de trabajo",
+    "pasos": [
+        {
+            "numero": "1",
+            "titulo": "Compra el servicio online",
+            "descripcion": "Añade el servicio al carrito de la compra a través de los botones de contratar y resérvalo por medio del pago. Podrás pagar con tarjeta bancaria o Paypal.",
+            "emoji": "🛒"
+        },
+        {
+            "numero": "2",
+            "titulo": "Formulario y condiciones de contratación",
+            "descripcion": "Una vez realizado el pago, te enviaremos un formulario para que nos cuentes cómo quieres que sea tu web. También te enviaremos las condiciones de contratación.",
+            "emoji": "📝"
+        },
+        {
+            "numero": "3",
+            "titulo": "Diseño y desarrollo",
+            "descripcion": "Nos pondremos manos a la obra y en un plazo de 5 días laborables, una vez recibida la información del formulario, recibirás un email avisándote de la creación de la web terminada.",
+            "emoji": "👩‍💻"
+        },
+        {
+            "numero": "4",
+            "titulo": "Revisión, ajustes y entrega",
+            "descripcion": "Una vez terminada la web, te la enseñaremos para que nos des tu opinión y hagamos los ajustes necesarios. Cuando esté todo listo, te la entregaremos.",
+            "emoji": "🎁"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "titulo": "Diseño de logotipos",
+    "subtitulo": "para empresas, marcas y productos",
+    "button": "Branding",
+    "url": "/branding",
+    "banners": [
+        {
+            "url": "/branding/logotipos",
+            "titulo": "MONO LOGO Start",
+            "emojiTitulo": "🚀",
+            "precio": 80,
+            "tagline": "Creatividad al mejor precio",
+            "items": [
+                {"texto": "3 propuestas", "checked": true},
+                {"texto": "Ideal para rediseños", "checked": true}
+            ]
+        }
+    ]
+}

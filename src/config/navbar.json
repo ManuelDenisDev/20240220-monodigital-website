@@ -1,0 +1,158 @@
+{
+    "menuNavBar": [
+        {
+            "title": "Diseño Web",
+            "description": "Diseño Web",
+            "emoji": "🖥️",
+            "label": "diseño-web",
+            "href": "/diseño-web",
+            "submenu": [
+                {
+                    "title": "Landing Pages",
+                    "description": "Diseño web de landing page, el primer paso para la digitalización de tu empresa.",
+                    "emoji": "📄",
+                    "label": "landing-pages",
+                    "href": "/landing-pages"
+                },
+                {
+                    "title": "Webs Corporativas",
+                    "description": "Diseño web personalizado y completo.",
+                    "emoji": "🏢",
+                    "label": "webs-corporativas",
+                    "href": "/webs-corporativas"
+                },
+                {
+                    "title": "Webs Avanzado",
+                    "description": "Diseño de página web avanzado, personalizado y preparado para el crecimiento de tu empresa.",
+                    "emoji": "🚀",
+                    "label": "webs-avanzado",
+                    "href": "/webs-avanzado"
+                },
+                {
+                    "title": "Tiendas Online Estandar",
+                    "description": "Diseño de tienda online y web corporativa con el mismo panel de control.",
+                    "emoji": "🛒",
+                    "label": "tiendas-online-estandar",
+                    "href": "/tiendas-online-estandar"
+                },
+                {
+                    "title": "Tiendas Online Avanzado",
+                    "description": "Diseño de logo sin limitaciones, con papelería, redes sociales y manual corporativo.",
+                    "emoji": "🛍️",
+                    "label": "tiendas-online-avanzado",
+                    "href": "/tiendas-online-avanzado"
+                },
+                {
+                    "title": "Desarrollo a Medida",
+                    "description": "Desarrollamos el codigo de tu sitio web a medida. Sin limitaciones.",
+                    "emoji": "🛠️",
+                    "label": "desarrollo-a-medida",
+                    "href": "/desarrollo-a-medida"
+                }
+            ]
+        },
+        {
+            "title": "Branding",
+            "description": "Branding",
+            "emoji": "🎨",
+            "label": "branding",
+            "href": "/branding",
+            "submenu": [
+                {
+                    "title": "Logotipos",
+                    "description": "Diseño de logos. Nuestra oferta más económica.",
+                    "emoji": "🖌️",
+                    "label": "logotipos",
+                    "href": "/logotipos"
+                },
+                {
+                    "title": "Logo + Redes + Papelería",
+                    "description": "Diseño de logotipo adaptado a redes sociales, con tarjeta y papelería.",
+                    "emoji": "🗒️",
+                    "label": "logo-redes-papeleria",
+                    "href": "/logo-redes-papeleria"
+                },
+                {
+                    "title": "Logo + Redes + Papelería Avanzado",
+                    "description": "Diseño profesional de logotipo, basado en el proceso creativo con redes sociales y papelería.",
+                    "emoji": "📦",
+                    "label": "logo-redes-papeleria-avanzado",
+                    "href": "/logo-redes-papeleria-avanzado"
+                },
+                {
+                    "title": "Manual de Marca",
+                    "description": "Diseño de logo sin limitaciones, con papelería, redes sociales y manual corporativo.",
+                    "emoji": "📖",
+                    "label": "manual-de-marca",
+                    "href": "/manual-de-marca"
+                }
+            ]
+        },
+        {
+            "title": "Marketing",
+            "description": "Marketing",
+            "emoji": "📈",
+            "label": "marketing",
+            "href": "/marketing",
+            "submenu": [
+                {
+                    "title": "Naming",
+                    "description": "Creamos el nombre de tu marca (naming). El primer paso para un branding de éxito.",
+                    "emoji": "📝",
+                    "label": "naming",
+                    "href": "/naming"
+                },
+                {
+                    "title": "Redes Sociales",
+                    "description": "Creamos tu página de  Google My Business, Facebook, perfiles de Instagram y X",
+                    "emoji": "📱",
+                    "label": "redes-sociales",
+                    "href": "/redes-sociales"
+                },
+                {
+                    "title": "Publicidad en Redes Sociales",
+                    "description": "Publicidad en Redes Sociales",
+                    "emoji": "📈",
+                    "label": "publicidad-en-redes-sociales",
+                    "href": "/publicidad-en-redes-sociales"
+                },
+                {
+                    "title": "Contenido Web",
+                    "description": "Creamos el contenido de tu web: Títulos, textos y fotos.",
+                    "emoji": "📝",
+                    "label": "contenido-web",
+                    "href": "/contenido-web"
+                },
+                {
+                    "title": "Actualización Web",
+                    "description": "Actualización del contenido de tu web. Tus clientes lo agradecerán.",
+                    "emoji": "🔄",
+                    "label": "actualizacion-web",
+                    "href": "/actualizacion-web"
+                },
+                {
+                    "title": "Campaña Google patrocinada",
+                    "description": "Anúnciate en Google. La forma más eficiente de aparecer en internet",
+                    "emoji": "📈",
+                    "label": "campaña-google-patrocinada",
+                    "href": "/campaña-google-patrocinada"
+                },
+                {
+                    "title": "Busqueda de fotografías",
+                    "description": "Las fotos publicitarias, el complemento ideal para tus diseños",
+                    "emoji": "📷",
+                    "label": "busqueda-de-fotografias",
+                    "href": "/busqueda-de-fotografias"
+                },
+                {
+                    "title": "Hosting + Dominio",
+                    "description": "Hosting y dominio para tu web, sin complicaciones.",
+                    "emoji": "🌐",
+                    "label": "hosting-dominio",
+                    "href": "/hosting-dominio"
+                }
+                
+            ]
+        }
+    ]
+}

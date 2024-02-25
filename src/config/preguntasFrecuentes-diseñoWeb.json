@@ -1,0 +1,45 @@
+{
+    "titulo": "Preguntas frecuentes",
+    "preguntas": [
+        {
+            "pregunta": "Al contactar, ¿trato directamente con el diseñador?",
+            "respuesta": "Si, no hay intermediarios, ni telefonistas ni servicios automatizados. Hablarás con Manuel Denis, diseñador autónomo profesional titulado."
+        },
+        {
+            "pregunta": "Como cliente, ¿que seguridad tengo de que ofrecéis los servicios anunciados?",
+            "respuesta": "Todos los servicios presentados en esta web tienen unas condiciones de contratación, recogidas en documentos PDF que se entregan una vez realizado el pago. En estas condiciones se expone de forma clara los servicios ofrecidos, archivos entregados y plazos máximos. Tienes derecho a cancelar el proyecto dentro de las 24 horas siguientes a la contatación si no estás de acuerdo con las condiciones del servicio."
+        },
+        {
+            "pregunta": "Que significa diseño personalizado",
+            "respuesta": "En nuestros servicios de diseño web (---por completar las opciones---) trabajamos ciñéndonos a las especificaciones del cliente, con una «tarifa plana» de cambios o modificaciones, cuya intención es la entrega del proyecto a su gusto. La única limitación del diseño personalizado es el plazo, que va de los 30 a los 45 días. Las actuaciones en la web se llevan a cabo en un plazo estimado de 4 días laborables después de la solicitud de cambios por parte del cliente."
+        },
+        {
+            "pregunta": "Ofrecéis vuestros servicios a cualquier parte del mundo",
+            "respuesta": "Sí. Al vender mediante Paypal, cualquier persona alrededor del mundo puede contratarnos de forma segura. Los precios marcados en toda la web son totales, en ese caso."
+        },
+        {
+            "pregunta": "¿Tendré mi web en propiedad?",
+            "respuesta": "Sí. Tu web se diseña para tu empresa en exclusiva y en todo momento tienes el acceso completo a tu panel de control para realizar cualquier cambio. El funcionamiento de cualquier página web o tienda online está unido necesariamente a un plan de hosting y un dominio registrado. En ese sentido, nuestro servicio de hosting y dominio te proporciona la seguridad de que tu web se va a mostrar al mundo online. El pago que realizas en concepto de hosting y dominio es para su funcionamiento online y por tanto no se considera un alquiler y eres dueño de tu web o tienda online."
+        },
+        {
+            "pregunta": "Ya tengo dominio, pero no alojamiento ¿Puedo usar vuestro hosting gratuito?",
+            "respuesta": "Sí, si ya tienes el dominio contratado con anterioridad, también podemos alojar la web en nuestros servidores y beneficiarte así del hosting gratuito. Para ello, nos ocuparemos de cambiar las DNS de tu dominio para que apunten a nuestro servidor. No tendrás que preocuparte de nada."
+        },
+        {
+            "pregunta": "Ya tengo dominio y alojamiento, ¿Podéis diseñarme la web?",
+            "respuesta": "Sí. Si eres un usuario avanzado que ha registrado anteriormente el dominio y/o el alojamiento con otra empresa, puedes contratar el servicio. Únicamente tendrás que abonar un suplemento de 30€ (precio profesional) o 35€ (precio particular) adicionales por instalación externa, ya que nos tenemos que adaptar a los paneles de control externos."
+        },
+        {
+            "pregunta": "Una vez me la entreguéis, ¿Puedo hacer cambios en mi web?",
+            "respuesta": "Una vez terminado el proyecto y entregada la web o tienda, tendrás acceso total a tu panel de control, donde podrás cambiar cualquier característica de la web, incluido su propio diseño. Es requisito indispensable tener la totalidad del coste del proyecto abonado."
+        },
+        {
+            "pregunta": "¿Tenéis copia de seguridad de mi web?",
+            "respuesta": "Sí, si está en nuestros servidores. Como dueño de tu web, tienes derecho a que mantengamos los archivos de tu web durante el tiempo de hosting contratado. Todos nuestros servicios incluyen meses gratuitos de hosting. Bajo solicitud, y pasado dicho plazo, puedes solicitar tu copia de seguridad de tu web y base de datos, con un coste de 80€."
+        },
+        {
+            "pregunta": "He contratado un servicio y luego me echo a atrás en su ejecución ¿Me devolveréis el dinero?",
+            "respuesta": "Sí. El cliente dispone de 24 horas para estudiar las condiciones de contratación del servicio elegido, que se entregan una vez realiza el pago del mismo. Si no está de acuerdo con esas características, bajo solicitud, procederíamos a la devolución total de la compra. Una vez comencemos a trabajar en el proyecto, y al ser servicios personalizados, ya no habría devolución, pero te ofreceríamos un servicio de iguales características al contratado a coste 0€. El dinero entregado también se podrá usar como descuento para otros servicios más caros al contratado desde un primer momento. Hay que tener en cuenta que ese «crédito» sería limitado a un uso dentro de los siguientes 90 días."
+        }
+    ]
+}

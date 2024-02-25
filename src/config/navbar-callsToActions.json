@@ -1,0 +1,14 @@
+{
+    "callsToActions": [
+        {
+            "title": "Contacto",
+            "href": "/contacto",
+            "emoji": "📞"
+        },
+        {
+            "title": "Dark Mode",
+            "href": "/dark-mode",
+            "emoji": "🌙"
+        }
+    ]
+}

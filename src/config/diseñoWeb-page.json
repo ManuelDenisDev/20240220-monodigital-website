@@ -1,0 +1,33 @@
+{
+    "diseñoWeb": {
+        "emoji": "💻",
+        "titulo": "Diseño Web",
+        "tags": [
+            " Landing Page",
+            " Website",
+            " e-Commerce"
+        ],
+        "tagline": [
+            "Si no tienes web, no existes.",
+            "Si no está bien hecha, no venderás."
+        ],
+        "descripcion": [
+            "Será un proceso muy fácil. Te vamos a guiar paso a paso hasta que lances tu nueva web por todo lo alto 🚀",
+            "Será moderna, intuitiva y rápida 💨",
+            "Estará preparada para conseguirte más clientes y te darán ganas de enseñársela a todo el mundo 🥰"
+        ],
+        "imagen": "img/diseño-web.jpg"
+    },
+    "cardsDiseñoWeb": {
+        "emoji": "💻",
+        "titulo": "MONO Diseño Web",
+        "subtitulo": "Características, precios y opciones",
+        "descripcion": "Precios sin IVA."
+    },
+    "cardsTiendaOnline": {
+        "emoji": "🛒",
+        "titulo": "MONO Tienda Online",
+        "subtitulo": "Características, precios y opciones",
+        "descripcion": "Precios sin IVA."
+    }
+}

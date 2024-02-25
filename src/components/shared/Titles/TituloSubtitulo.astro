@@ -1,0 +1,22 @@
+---
+interface Props {
+    titulo: string;
+    subtitulo: string;
+    aos?: string;
+    aosDuration?: number;
+    alinear: string;
+}
+
+const { titulo, subtitulo, aos, aosDuration, alinear } = Astro.props;
+---
+
+<div class={`text-${alinear}`} data-aos={aos} data-aos-duration={aosDuration}>
+    <h2 class="monoH2">{titulo} <span
+        class="monoSpan">{subtitulo}</span></h2>
+</div>
+<style>
+    .monoContainer {@apply  text-yellow-600;}
+    .monoH2 {@apply text-4xl;}
+    .monoSpan {@apply md:block text-onyx-400;}
+    .monoP {@apply text-onyx-300 dark:text-onyx-500 mt-4;}
+</style>

@@ -1,0 +1,38 @@
+---
+import Logo from '@shared/Logo.astro'
+import ButtonDarkMode from '@shared/Buttons/ButtonDarkMode.astro'
+import HeaderNav from '@shared/Header/HeaderNav.tsx'
+import HeaderNavMv from '@shared/Header/HeaderNavMv.tsx'
+import ButtonAcentuadoXs from '@shared/Buttons/ButtonAcentuadoXs.astro'
+---
+
+<header class="monoHeader">
+    <div class="monoHeader__wrapper">
+        <div class="monoHeader__container shadow-massive">
+            <div class="items-center flex flex-row justify-between md:justify-start">
+                <Logo estilo="w-20" />
+                <HeaderNavMv client:load />
+            </div>
+            <div class="flex gap-4 items-center list-none">
+                <HeaderNav client:load />
+                <div class="hidden md:flex">
+
+                    <ButtonAcentuadoXs url="/contacto" texto="Contacto"/>
+                </div>
+                <ButtonDarkMode />
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+    .monoHeader {
+        @apply fixed inset-x-0 top-2 md:top-8 z-50;
+    }
+    .monoHeader__wrapper {
+        @apply mx-auto px-8 md:max-w-3xl;
+    }
+    .monoHeader__container {
+        @apply flex flex-col backdrop-blur-xl backdrop-filter bg-onyx-900/60 dark:bg-onyx-200/60 border border-onyx-800 dark:border-onyx-300 md:flex-row md:items-center md:justify-between mx-auto p-2 relative lg:rounded-2xl rounded-xl w-full;
+    }
+</style>

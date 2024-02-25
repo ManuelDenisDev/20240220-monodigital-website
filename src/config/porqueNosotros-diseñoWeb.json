@@ -1,0 +1,42 @@
+{
+    "titulo": "¿Por qué tenemos que diseñar tu web?",
+    "descripcion": "Porque sabemos que tu web es tu carta de presentación, y queremos que sea la mejor. Por eso, nos encargamos de diseñarla y desarrollarla para que sea única y atractiva.",
+    "elements": [
+        {
+            "titulo": "Somos muy monos",
+            "descripcion": "Nuestra creatividad a tu servicios. Hablarás directamente con nuestro diseñador para conseguir el mejor resultado.",
+            "emoji": "🐵",
+            "dataAos": "fade-right"
+        },
+        {
+            "titulo": "Usamos las más altas tecnologías",
+            "descripcion": "Usamos las últimas tecnologías para que tu web sea rápida y segura.",
+            "emoji": "🚀",
+            "dataAos": "fade-down"
+        },
+        {
+            "titulo": "Nos encanta lo que hacemos",
+            "descripcion": "Nos encanta diseñar y desarrollar sitios web. Nos esforzamos para que tu web sea la mejor.",
+            "emoji": "😍",
+            "dataAos": "fade-left"
+        },
+        {
+            "titulo": "Rsponsive: ¡Sí!",
+            "descripcion": "Diseñamos tu web para que se vea perfecta en cualquier dispositivo.",
+            "emoji": "📱",
+            "dataAos": "fade-right"
+        },
+        {
+            "titulo": "SEO Friendly",
+            "descripcion": "Diseñamos tu web pensando en el SEO. ¡Tu web será amiga de Google!",
+            "emoji": "🔍",
+            "dataAos": "fade-up"
+        },
+        {
+            "titulo": "Mantenimiento y soporte técnico",
+            "descripcion": "Te ofrecemos un servicio de mantenimiento y soporte técnico para que tu web esté siempre actualizada y funcionando correctamente.",
+            "emoji": "🔧",
+            "dataAos": "fade-left"
+        }
+    ]
+}

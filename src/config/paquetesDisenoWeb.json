@@ -1,0 +1,196 @@
+
+
+
+
+
+
+{
+    "Grupo 1": {
+        "titulo": "MONO Expressivo 🚀💼",
+        "descripcion": "Diseño web de landing page, el primer paso para la digitalización de tu empresa.",
+
+    }
+    "Paquete Basico": {
+        "nombre": "MONO Start 🚀",
+        "precio": "150€",
+        "DescripcionTitulo": "1 sección / URL",
+        "DescriptionList1": "Textos: Máx. 400 palabras, PPC*",
+        "DescriptionList2": "Imágenes: Máx. 5 fotos publicitarias, PPC*",
+        "items": [
+            {
+                "texto": "Diseño web personalizado",
+                "checked": true
+            },
+            {
+                "texto": "Panel de control intuitivo",
+                "checked": true
+            },
+            {
+                "texto": "Certificado SSL",
+                "checked": true
+            },
+            {
+                "texto": "Web en propiedad",
+                "checked": true
+            },
+            {
+                "texto": "Diseño responsive multipantalla",
+                "checked": true
+            },
+            {
+                "texto": "Mapa interactivo de Google Maps",
+                "checked": true
+            },
+            {
+                "texto": "Iconos con enlaces a redes sociales",
+                "checked": true
+            },
+            {
+                "texto": "Hosting y dominio .es gratis: 3 meses",
+                "checked": true
+            },
+            {
+                "texto": "1 cuenta y 5 alias de email profesional",
+                "checked": true
+            },
+            {
+                "texto": "Paginas Legales",
+                "checked": false
+            },
+            {
+                "texto": "Pack de inicio SEO",
+                "checked": false
+            },
+            {
+                "texto": "Chat",
+                "checked": false
+            },
+            {
+                "texto": "Blog con la primera entrada",
+                "checked": false
+            }
+        ]
+    },
+    "PaqueteEstandar": {
+        "nombre": "MONO Launch 🌟",
+        "precio": "260€",
+        "DescripcionTitulo": "1 sección / URL",
+        "DescriptionList1": "Textos: Máx. 400 palabras, PPC*",
+        "DescriptionList2": "Imágenes: Máx. 5 fotos publicitarias, PPC*",
+        "items": [
+            {
+                "texto": "Diseño web personalizado",
+                "checked": true
+            },
+            {
+                "texto": "Panel de control intuitivo",
+                "checked": true
+            },
+            {
+                "texto": "Certificado SSL",
+                "checked": true
+            },
+            {
+                "texto": "Web en propiedad",
+                "checked": true
+            },
+            {
+                "texto": "Diseño responsive multipantalla",
+                "checked": true
+            },
+            {
+                "texto": "Mapa interactivo de Google Maps",
+                "checked": true
+            },
+            {
+                "texto": "Iconos con enlaces a redes sociales",
+                "checked": true
+            },
+            {
+                "texto": "Hosting y dominio .es gratis: 3 meses",
+                "checked": true
+            },
+            {
+                "texto": "1 cuenta y 5 alias de email profesional",
+                "checked": true
+            },
+            {
+                "texto": "Paginas Legales",
+                "checked": true
+            },
+            {
+                "texto": "Pack de inicio SEO",
+                "checked": false
+            },
+            {
+                "texto": "Chat",
+                "checked": false
+            },
+            {
+                "texto": "Blog con la primera entrada",
+                "checked": false
+            }
+        ]
+    },
+    "PaqueteAvanzado": {
+        "nombre": "MONO Ascend 🚀🔝",
+        "precio": "350€",
+        "DescripcionTitulo": "1 sección / URL",
+        "DescriptionList1": "Textos: Máx. 400 palabras, PPC*",
+        "DescriptionList2": "Imágenes: Máx. 5 fotos publicitarias, PPC*",
+        "items": [
+            {
+                "texto": "Diseño web personalizado",
+                "checked": true
+            },
+            {
+                "texto": "Panel de control intuitivo",
+                "checked": true
+            },
+            {
+                "texto": "Certificado SSL",
+                "checked": true
+            },
+            {
+                "texto": "Web en propiedad",
+                "checked": true
+            },
+            {
+                "texto": "Diseño responsive multipantalla",
+                "checked": true
+            },
+            {
+                "texto": "Mapa interactivo de Google Maps",
+                "checked": true
+            },
+            {
+                "texto": "Iconos con enlaces a redes sociales",
+                "checked": true
+            },
+            {
+                "texto": "Hosting y dominio .es gratis: 3 meses",
+                "checked": true
+            },
+            {
+                "texto": "1 cuenta y 5 alias de email profesional",
+                "checked": true
+            },
+            {
+                "texto": "Paginas Legales",
+                "checked": true
+            },
+            {
+                "texto": "Pack de inicio SEO",
+                "checked": true
+            },
+            {
+                "texto": "Chat",
+                "checked": true
+            },
+            {
+                "texto": "Blog con la primera entrada",
+                "checked": true
+            }
+        ]
+    }
+}

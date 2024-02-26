@@ -1,116 +1,50 @@
 ---
 import CardsListItem from '@shared/Cards/CardsListItem.astro'
-import bannerBranding from '@config/banner-branding.json'
-
-const { banners } = bannerBranding
 
 interface Props {
     url: string
     titulo: string
+    subtitulo: string
     emojiTitulo: string
     items: {texto: string, checked: boolean}[]
     precio: string
     tagline: string
 }
 
-// const { url, titulo, emojiTitulo, precio, tagline, items } = Astro.props;
+const { url, titulo, subtitulo, emojiTitulo, precio, tagline, items } = Astro.props;
 ---
 
 <figure class="monoCard__figure card shadow-massive">
-    <a href={banners[0].url} class="monoCard__a group">
-        <h3 class="monoCard__titulo">{banners[0].titulo}</h3>
+    <a href={url} class="monoCard__a group">
+        <h3 class="monoCard__titulo">{titulo}<br />{subtitulo}</h3>
         <ul class="monoCard__ul">
             {
-                banners[0].items.map((item) => {
+                items.map((item) => {
                     return (
-                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} />
+                        <CardsListItem texto={item.texto} sized="10%" class="inline-flex items-center" checked={item.checked} />
                     )
                 })
             }
         </ul> 
         <blockquote class="monoCard__blockquote"> 
             <div>
-                <span class="monoCard__span">{banners[0].emojiTitulo}</span>
-                <p class="monoCard__precio">{banners[0].precio}€</p>
+                <span class="monoCard__span">{emojiTitulo}</span>
+                <p class="monoCard__precio">{precio}€</p>
             </div>
-            <span class="monoCard__tagline">{banners[0].tagline}</span>
+            <span class="monoCard__tagline">{tagline}</span>
         </blockquote>
     </a>
 </figure>
-<figure class="monoCard__figure card shadow-massive">
-    <a href={banners[0].url} class="monoCard__a group">
-        <h3 class="monoCard__titulo">{banners[0].titulo}</h3>
-        <ul class="monoCard__ul">
-            {
-                banners[0].items.map((item) => {
-                    return (
-                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} />
-                    )
-                })
-            }
-        </ul> 
-        <blockquote class="monoCard__blockquote"> 
-            <div>
-                <span class="monoCard__span">{banners[0].emojiTitulo}</span>
-                <p class="monoCard__precio">{banners[0].precio}€</p>
-            </div>
-            <span class="monoCard__tagline">{banners[0].tagline}</span>
-        </blockquote>
-    </a>
-</figure>
-<figure class="monoCard__figure card shadow-massive">
-    <a href={banners[0].url} class="monoCard__a group">
-        <h3 class="monoCard__titulo">{banners[0].titulo}</h3>
-        <ul class="monoCard__ul">
-            {
-                banners[0].items.map((item) => {
-                    return (
-                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} />
-                    )
-                })
-            }
-        </ul> 
-        <blockquote class="monoCard__blockquote"> 
-            <div>
-                <span class="monoCard__span">{banners[0].emojiTitulo}</span>
-                <p class="monoCard__precio">{banners[0].precio}€</p>
-            </div>
-            <span class="monoCard__tagline">{banners[0].tagline}</span>
-        </blockquote>
-    </a>
-</figure>
-<figure class="monoCard__figure card shadow-massive">
-    <a href={banners[0].url} class="monoCard__a group">
-        <h3 class="monoCard__titulo">{banners[0].titulo}</h3>
-        <ul class="monoCard__ul">
-            {
-                banners[0].items.map((item) => {
-                    return (
-                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} />
-                    )
-                })
-            }
-        </ul> 
-        <blockquote class="monoCard__blockquote"> 
-            <div>
-                <span class="monoCard__span">{banners[0].emojiTitulo}</span>
-                <p class="monoCard__precio">{banners[0].precio}€</p>
-            </div>
-            <span class="monoCard__tagline">{banners[0].tagline}</span>
-        </blockquote>
-    </a>
-</figure>
-
 
 <style>
-    .monoCard__figure {@apply  relative cursor-pointer h-full p-8 rounded-3xl bg-gradient-to-tr from-onyx-900 dark:from-onyx-200 to-onyx-700 dark:to-onyx-100 border border-onyx-800 dark:border-onyx-300;}
-    .monoCard__a {@apply  h-full flex flex-col justify-between text-white dark:text-onyx-900;}
-    .monoCard__titulo {@apply text-4xl;}
-    .monoCard__ul {@apply h-32 py-6 text-xs [&>li]:flex [&>li]:gap-2 [&>li]:items-center;}
-    .monoCard__blockquote {@apply flex flex-col gap-4 [&>div]:flex [&>div]:gap-2 [&>div]:items-center [&>div]:justify-between [&>div]:w-full;}
-    .monoCard__span {@apply text-5xl;}
-    .monoCard__precio {@apply text-5xl;}
-    .monoCard__tagline {@apply text-xs text-center;}
+    .monoCard__figure {@apply  relative  aspect-[3/4] overflow-hidden cursor-pointer p-6 mvL:p-8 laptop:p-4 rounded-3xl bg-gradient-to-tr from-onyx-900 dark:from-onyx-200 to-onyx-700 dark:to-onyx-100 border border-onyx-800 dark:border-onyx-300;}
+    .monoCard__a {@apply  h-full flex flex-col justify-between text-white dark:text-onyx-900 bg-yellow-200 mvS:bg-red-200 mvM:bg-green-200 mvL:bg-blue-200 tabletS:bg-red-500 tabletM:bg-green-500 tabletL:bg-blue-500 laptop:bg-yellow-700 desktopS:bg-red-800 desktopM:bg-green-800 desktopL:bg-blue-800;}
+    .monoCard__titulo {@apply text-2xl mvS:text-3xl mvM:text-4xl mvL:text-4xl tabletS:text-3xl tabletM:text-4xl tabletL:text-5xl laptop:text-xl desktopS:text-3xl truncate;}
+    .monoCard__ul {@apply  text-[8px] mvS:text-xs mvM:text-base tabletS:text-xs tabletM:text-base tabletL:text-base laptop:text-[10px] desktopS:text-xs truncate [&>li]:flex [&>li]:gap-1 [&>li]:items-center;}
+    .monoCard__blockquote {@apply flex flex-col gap-2 mvS:gap-4 laptop:gap-0 desktopS:gap-2 [&>div]:flex [&>div]:gap-0 mvS:[&>li]:gap-2 [&>div]:items-center [&>div]:justify-between [&>div]:w-full overflow-hidden;}
+    .monoCard__span {@apply text-3xl mvS:text-5xl mvM:text-6xl tabletS:text-5xl tabletM:text-6xl tabletL:text-7xl laptop:text-2xl desktopS:text-5xl;}
+    .monoCard__precio {@apply text-4xl mvS:text-6xl mvM:text-7xl mvL:text-8xl tabletS:text-7xl tabletL:text-8xl laptop:text-3xl desktopS:text-6xl;}
+    .monoCard__tagline {@apply  text-[8px] mvS:text-xs mvM:text-xs tabletM:text-base tabletL:text-base laptop:text-[10px] desktopS:text-xs text-center truncate;}
 </style>
 
 <script type="text/javascript" src="vanilla-tilt.js"></script>

@@ -1,0 +1,1 @@
+bg-yellow-200 mvS:bg-red-200 mvM:bg-green-200 mvL:bg-blue-200 tabletS:bg-red-500 tabletM:bg-green-500 tabletL:bg-blue-500 laptop:bg-yellow-700 desktopS:bg-red-800 desktopM:bg-green-800 desktopL:bg-blue-800

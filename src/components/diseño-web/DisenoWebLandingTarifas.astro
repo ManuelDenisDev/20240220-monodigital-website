@@ -38,7 +38,7 @@ const { opciones } = landingPage.cardsLandingPage;
                             {
                                 opcion.items.map((item) => {
                                     return (
-                                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} />
+                                        <CardsListItem texto={item.texto} class="inline-flex items-center gap-2" checked={item.checked} sized={opcion.sized} />
                                     )
                                 })
                             }

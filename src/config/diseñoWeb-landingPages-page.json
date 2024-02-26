@@ -18,6 +18,7 @@
                 "DescriptionList": ["Textos: Máximo 400 palabras, proporcionado por el cliente", "Fotos: Máximo 5, proporcionadas por el cliente"],
                 "button": "Contratar",
                 "dataAos": "fade-right",
+                "sized":"20",
                 "items": [
                     {"texto": "Diseño web personalizado", "checked": true},
                     {"texto": "Panel de control intuitivo", "checked": true},
@@ -41,6 +42,7 @@
                 "DescriptionList": ["Textos: Máximo 400 palabras, proporcionado por el cliente", "Fotos: Máximo 5, proporcionadas por el cliente"],
                 "button": "Contratar",
                 "dataAos": "fade-up",
+                "sized":"20",
                 "items": [
                     { "texto": "Diseño web personalizado", "checked": true},
                     { "texto": "Panel de control intuitivo", "checked": true},
@@ -64,6 +66,7 @@
                 "DescriptionList": ["Textos: Máximo 400 palabras, proporcionado por el cliente", "Fotos: Máximo 5, proporcionadas por el cliente"],
                 "button": "Contratar",
                 "dataAos": "fade-left",
+                "sized":"20",
                 "items": [
                     {"texto": "Diseño web personalizado", "checked": true},
                     {"texto": "Panel de control intuitivo", "checked": true},

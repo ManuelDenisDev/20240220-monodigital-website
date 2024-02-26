@@ -5,15 +5,16 @@ import Check from "@icons/Check.astro";
 interface Props {
 	texto: string;
     class: string;
+    sized: string;
     checked: boolean;
 }
 
-const { texto, checked } = Astro.props
+const { texto, checked, sized } = Astro.props
 const { class: className, ...rest } = Astro.props; 
 
 ---
 <li class={`${checked ? '' : 'opacity-50'}`}{...rest}>
-    {checked ? <Check width="20" height="20" /> : <CircleX width="20" height="20"/>}
+    {checked ? <Check width={sized} height={sized} /> : <CircleX width={sized} height={sized}/>}
     {texto}
 </li>
 

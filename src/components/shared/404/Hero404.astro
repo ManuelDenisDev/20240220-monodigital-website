@@ -1,0 +1,30 @@
+---
+import BgGrid from '@shared/Bg/BgGrid.astro'
+import TituloSubtituloParrafo from '@shared/Titles/TituloSubtituloParrafo.astro'
+import ButtonAcentuado from '@shared/Buttons/ButtonAcentuado.astro'
+import ButtonSecundario from '@shared/Buttons/ButtonSecundario.astro'
+---
+
+<section class="monoWrapper">
+    <div class="monoFondo__container">
+        <BgGrid />
+    </div> 
+    <article class="monoArticle"> 
+        <div class="monoHeader" data-aos="fade-down" data-aos-duration="3000"> 
+            <span data-aos="fade-down" data-aos-duration="2500" class="monoHeader__span shadow-massive">404</span>
+            <TituloSubtituloParrafo titulo="Lo que estás buscando" subtitulo="podría haber sido movido." parrafo="¿Conoces nuestros servicios?" />
+            <div class="flex flex-wrap gap-3 mt-12 justify-center">
+                <ButtonAcentuado url="/diseño-web" texto="Diseño Web" />
+                <ButtonSecundario url="/branding" texto="Brandign" />
+                <ButtonSecundario url="/marketing" texto="Marketing" />
+            </div>
+        </div>
+    </article>
+</section>
+<style>
+    .monoWrapper {@apply relative overflow-hidden;}
+    .monoFondo__container {@apply absolute inset-x-0 top-0 h-96 rotate-180 text-onyx-700/40 dark:text-onyx-700/30 opacity-60 [mask-image:linear-gradient(to_bottom,transparent,white)];}
+    .monoArticle {@apply px-8 pt-32 pb-24 mx-auto md:px-12 lg:px-36 lg:pt-64 max-w-7xl relative;}
+    .monoHeader {@apply text-center mx-auto;}
+    .monoHeader__span {@apply flex items-center justify-center w-16 h-16 mb-5 lg:mb-16 text-indigo-300 rounded-xl border bg-gradient-to-tr mx-auto from-onyx-50 to-onyx-700 border-onyx-800;}
+</style>

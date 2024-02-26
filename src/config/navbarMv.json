@@ -1,0 +1,28 @@
+{
+    "menuNavBarMv": [
+        {
+            "id": 1,
+            "title": "Diseño Web",
+            "description": "Diseño Web",
+            "emoji": "🖥️",
+            "label": "diseño-web",
+            "href": "/diseño-web"
+        },
+        {
+            "id": 2,
+            "title": "Branding",
+            "description": "Branding",
+            "emoji": "🎨",
+            "label": "branding",
+            "href": "/branding"
+        },
+        {
+            "id": 3,
+            "title": "Marketing Digital",
+            "description": "Marketing Digital",
+            "emoji": "📈",
+            "label": "marketing-digital",
+            "href": "/marketing-digital"
+        }
+    ]
+}

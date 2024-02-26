@@ -4,6 +4,18 @@ export default {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			screens: {
+				'mvS': '320px',
+				'mvM': '375px',
+				'mvL': '425px',
+				'tabletS': '640px',
+				'tabletM': '768px',
+				'tabletL': '912px',
+      			'laptop': '1024px',
+      			'desktopS': '1280px',
+				'desktopM': '1440px',
+				'desktopL': '1536px',
+			  },
 			colors: {
 				onyx: {
 					50: '#1c1b22',

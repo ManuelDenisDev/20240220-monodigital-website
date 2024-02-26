@@ -1,7 +1,7 @@
 ---
 import { ViewTransitions } from "astro:transitions";
 import "aos/dist/aos.css"; // AOS styles
-import Header2 from '@shared/Header/Header2.astro';
+import Header from '@components/shared/Header/Header.astro';
 import Footer from '@shared/Footer/Footer.astro';
 
 import config from '@config/config.json';
@@ -30,7 +30,7 @@ const { title } = Astro.props;
 		<ViewTransitions />
 	</head>
 	<body>
-		<Header2 />
+		<Header />
         <slot />
 		<Footer />
 	<!-- animate on scroll script -->

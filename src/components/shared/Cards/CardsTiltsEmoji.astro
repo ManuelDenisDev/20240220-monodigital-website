@@ -38,7 +38,7 @@ const { url, titulo, subtitulo, emojiTitulo, precio, tagline, items } = Astro.pr
 
 <style>
     .monoCard__figure {@apply  relative  aspect-[3/4] overflow-hidden cursor-pointer p-6 mvL:p-8 laptop:p-4 rounded-3xl bg-gradient-to-tr from-onyx-900 dark:from-onyx-200 to-onyx-700 dark:to-onyx-100 border border-onyx-800 dark:border-onyx-300;}
-    .monoCard__a {@apply  h-full flex flex-col justify-between text-white dark:text-onyx-900 bg-yellow-200 mvS:bg-red-200 mvM:bg-green-200 mvL:bg-blue-200 tabletS:bg-red-500 tabletM:bg-green-500 tabletL:bg-blue-500 laptop:bg-yellow-700 desktopS:bg-red-800 desktopM:bg-green-800 desktopL:bg-blue-800;}
+    .monoCard__a {@apply  h-full flex flex-col justify-between text-white dark:text-onyx-900 ;}
     .monoCard__titulo {@apply text-2xl mvS:text-3xl mvM:text-4xl mvL:text-4xl tabletS:text-3xl tabletM:text-4xl tabletL:text-5xl laptop:text-xl desktopS:text-3xl truncate;}
     .monoCard__ul {@apply  text-[8px] mvS:text-xs mvM:text-base tabletS:text-xs tabletM:text-base tabletL:text-base laptop:text-[10px] desktopS:text-xs truncate [&>li]:flex [&>li]:gap-1 [&>li]:items-center;}
     .monoCard__blockquote {@apply flex flex-col gap-2 mvS:gap-4 laptop:gap-0 desktopS:gap-2 [&>div]:flex [&>div]:gap-0 mvS:[&>li]:gap-2 [&>div]:items-center [&>div]:justify-between [&>div]:w-full overflow-hidden;}

@@ -8,6 +8,7 @@ import BannerBranding from '@shared/Banners/BannerBranding.astro'
 import Impulsamos from '@components/Inicio/Impulsamos.astro'
 import InicioInfinite from '@components/Inicio/InicioInfinite.astro'
 import Opiniones from '@shared/Opiniones.astro'
+import BannerWeb from '@shared/Banners/BannerWeb.astro'
 ---
 
 <Base title="MONO digital 🐒 Agencia de Marketing Digital, Diseño Gráfico y Desarrollo Web en el Sur de España.">
@@ -19,14 +20,14 @@ import Opiniones from '@shared/Opiniones.astro'
 		<Sections>
 			<BannerBranding />
 		</Sections>
-		<Sections>
-			<Impulsamos />
-		</Sections>
 		<SectionsLine>
 			<InicioInfinite />
 		</SectionsLine>
 		<Sections>
-			<Opiniones />
+			<BannerWeb />
+		</Sections>
+		<Sections>
+			<Impulsamos />
 		</Sections>
 	</main>
 </Base>

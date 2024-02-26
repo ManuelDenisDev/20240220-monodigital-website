@@ -4,14 +4,14 @@ import ButtonSecundario from '@shared/Buttons/ButtonSecundario.astro'
 import CardsWrapper from '@shared/Cards/CardsWrapper.astro'
 import CardsTiltsEmoji from '@shared/Cards/CardsTiltsEmoji.astro'
 
-import bannerBranding from '@config/banner-branding.json'
+import bannerWeb from '@config/banner-web.json'
 
-const { cards } = bannerBranding
+const { cards } = bannerWeb
 
 ---
 <article class="flex flex-col justify-start items-start gap-12" data-aos="fade-up" data-aos-duration="2000">
-    <TituloSubtitulo titulo={bannerBranding.titulo} subtitulo={bannerBranding.subtitulo} alinear='left'/>
-    <ButtonSecundario texto={bannerBranding.button} url={bannerBranding.url} />
+    <TituloSubtitulo titulo={bannerWeb.titulo} subtitulo={bannerWeb.subtitulo} alinear='left'/>
+    <ButtonSecundario texto={bannerWeb.button} url={bannerWeb.url} />
     <CardsWrapper estilos='grid tabletS:grid-cols-2 tabletL:grid-cols-2 laptop:grid-cols-4 desktopS:grid-cols-4 gap-2 rounded-2xl'>
         {
             cards.map(({ url, titulo, subtitulo, emojiTitulo, items, precio, tagline }: { url: string; titulo: string; subtitulo: string; emojiTitulo: string; precio: number; tagline: string; items: { texto: string; checked: boolean; }[]; }) => (
@@ -27,5 +27,5 @@ const { cards } = bannerBranding
             ))
         }
     </CardsWrapper>
-    <p>Diseñamos la imagen corporativa de tu negocio para potenciar tu marca al mundo.</p>
+    <p>Diseñamos tu web con panel de control y añadimos tu contenido.</p>
 </article>

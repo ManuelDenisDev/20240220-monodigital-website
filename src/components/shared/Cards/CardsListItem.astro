@@ -13,9 +13,13 @@ const { texto, checked, sized } = Astro.props
 const { class: className, ...rest } = Astro.props; 
 
 ---
-<li class={`${checked ? '' : 'opacity-50'}`}{...rest}>
-    {checked ? <Check width={sized} height={sized} /> : <CircleX width={sized} height={sized}/>}
-    {texto}
+<li class={`flex ${checked ? '' : 'opacity-50'}`}{...rest}>
+    <span class="flex w-1/12">
+        {checked ? <Check width={sized} height={sized} /> : <CircleX width={sized} height={sized}/>}
+    </span>
+    <span class="truncate">
+        {texto}
+    </span>
 </li>
 
 <style>

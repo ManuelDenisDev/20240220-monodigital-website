@@ -1,0 +1,64 @@
+{
+    "titulo": "Diseño Web profesional",
+    "subtitulo": "para empresas, artistas e influencers.",
+    "button": "Diseño Web",
+    "url": "/diseño-web",
+    "cards": [
+        {
+            "url": "/diseño-web/logotipos",
+            "titulo": "MONO",
+            "subtitulo": "WEB Start",
+            "emojiTitulo": "🚀",
+            "precio": 170,
+            "tagline": "Tu web sin complicaciones",
+            "items": [
+                {"texto": "Diseño de Landing Page (1 seccion)", "checked": true},
+                {"texto": "Con panel de control", "checked": true},
+                {"texto": "3 meses de hosting y dominio GRATIS", "checked": true}
+            ]
+        },
+        {
+            "url": "/diseño-web/logotipos",
+            "titulo": "MONO",
+            "subtitulo": "WEB Prime",
+            "emojiTitulo": "💎",
+            "precio": 300,
+            "tagline": "Para una web corporativa fabulosa",
+            "items": [
+                {"texto": "Diseño web personalizado", "checked": true},
+                {"texto": "Con panel de control", "checked": true},
+                {"texto": "3 meses de hosting y dominio GRATIS", "checked": true},
+                {"texto": "Hasta 15 secciones desarrolladas", "checked":true}
+            ]
+        },
+        {
+            "url": "/diseño-web/logotipos",
+            "titulo": "MONO",
+            "subtitulo": "WEB Spotlight",
+            "emojiTitulo": "💼",
+            "precio": 550,
+            "tagline": "Una web completa para tu negocio",
+            "items": [
+                {"texto": "Diseño web personalizado", "checked": true},
+                {"texto": "Con panel de control", "checked": true},
+                {"texto": "3 meses de hosting y dominio GRATIS", "checked": true},
+                {"texto": "Hasta 20 secciones desarrolladas", "checked":true},
+                {"texto": "SEO - Chat - Blog - 5 fotos publicitarias", "checked":true}
+            ]
+        },
+        {
+            "url": "/tienda-online/logotipos",
+            "titulo": "MONO",
+            "subtitulo": "LOGO Prime",
+            "emojiTitulo": "💎",
+            "precio": 450,
+            "tagline": "Para verdaderos exigentes",
+            "items": [
+                {"texto": "Propuestas ilimitadas", "checked": true},
+                {"texto": "Diseño de papelería", "checked": true},
+                {"texto": "Adaptado a redes sociales", "checked": true},
+                {"texto": "Manual de marca", "checked": true}
+            ]
+        }
+    ]
+}
